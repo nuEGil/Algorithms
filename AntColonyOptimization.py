@@ -45,7 +45,7 @@ def plot_function():
 
     # run the simulation for multiple ants
     ant_paths = []
-    for jj in range(10):
+    for jj in range(5):
         # make an Ant Agent to put on this thing
         starting_point = (100*np.random.rand(2,)-50)
         A = AntAgent(eggholder, init_vec=starting_point)
