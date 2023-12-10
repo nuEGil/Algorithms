@@ -1,0 +1,3 @@
+These scripts opperate on stock price data formated in comma separated value files. Different data sets have different formats. 
+The main idea of reading in windows of prices, change in price volume, and summing up rewards from buying strats stays the same. 
+Tensorflow network implementation is in here too. 
