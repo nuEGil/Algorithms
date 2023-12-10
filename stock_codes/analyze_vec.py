@@ -9,7 +9,6 @@ This code reads price histories from csv files. it then applies a buying strateg
 The final step outputs a new csv file that tells how much some one would make ( wins or losses)
 given that trading strategy. This is simmilar to the concept of adding rewards over some policy. 
 
-
 it needs to dump -1,0,1 
 -1 = sell, 0 = hold, 1 = buy
 buy sell strategies need to be messed with to account for the store of funds the user has
