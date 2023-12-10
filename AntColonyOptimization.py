@@ -92,7 +92,10 @@ class AntAgent():
         #set bounds
         self.bounds = bounds
 
+    # replace the edge selectin logic with a neural network and updating the parameters 
+    # with reinforcment learning would be interesting. 
     def EdgeSelection(self, pheremone_map=np.ones((10, 10))):
+    
         # first generate a set of directions
         angles = 2*np.pi*np.random.rand(self.N_directions) # 0 to 2pi radians 
         
